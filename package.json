@@ -3,11 +3,23 @@
     "version": "1.0.0",
     "description": "Geographical data as ObjectId",
     "main": "index.js",
+    "repository": "erdemayaz/geo-objectid",
+    "type": "module",
+    "exports": "./index.js",
     "scripts": {
-      "test": "node ./test.js"
+        "test": "node ./test.js"
     },
-    "keywords": ["objectid", "coordinates", "geographical", "points", "data-transformation"],
+    "keywords": [
+        "bson",
+        "coordinates",
+        "data-transformation",
+        "geographical",
+        "id",
+        "mongo",
+        "mongodb",
+        "objectid",
+        "points"
+    ],
     "author": "Erdem Ayaz",
-    "license": "ISC"
-  }
-  
+    "license": "MIT"
+}
