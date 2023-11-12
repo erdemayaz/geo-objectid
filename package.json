@@ -1,6 +1,6 @@
 {
     "name": "geo-objectid",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Geographical data as ObjectId",
     "main": "index.js",
     "repository": "erdemayaz/geo-objectid",
