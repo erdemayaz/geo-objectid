@@ -7,7 +7,7 @@
     "type": "module",
     "exports": "./index.js",
     "scripts": {
-        "test": "node ./test.js"
+        "test": "standard && node ./test.js"
     },
     "keywords": [
         "bson",
@@ -21,5 +21,8 @@
         "points"
     ],
     "author": "Erdem Ayaz",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "standard": "^17.1.0"
+    }
 }
